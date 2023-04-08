@@ -1,0 +1,84 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+}
+.welcome-container{
+    margin-bottom: 20px;
+}
+.forgot-password-text{
+    color: #003FB9;
+    font-weight: 500;
+    align-self: flex-end;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+}
+.form-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 95vh;
+  }
+  .input-field{
+    outline: 0;
+    width: 20em;
+  }
+  .logo{
+    width: 80px;
+  }
+  .user-logo-img{
+    background-color: #EFEFEF;
+    padding: 30px;
+    border-radius: 50%;
+    width:60px;
+  }
+  
+  footer{
+      display: flex;
+      justify-content: space-around;
+    }
+    .footer-right-content{
+        color: #003FB9;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+    .footer-right-content i{
+        color:#b1b1b1;
+    }
+    .error{
+      color:#D9292B;
+      font-weight: 600;
+    }
+    @media (max-width:800px) {
+      .input-field{
+        width:15em;
+      }
+      footer{
+       display: flex;
+       flex-direction: column; 
+       justify-content: space-around;
+       align-items: center;
+       height: 80px;
+      }
+      .form-container{
+        height: 90vh;
+      }
+      .footer-right-content{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .footer-right-content span{
+      cursor: pointer;
+    }
+    .form{
+        width: 330px;
+    }
+    }
